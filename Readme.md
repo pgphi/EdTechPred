@@ -1,3 +1,11 @@
+___
+
+Author: Philipp Ganster
+
+Contact: Philipp.ganster95@gmail.com
+
+___
+
 ### About this Project
     
     War has direct impact on our daily lives. Especially the economy.
