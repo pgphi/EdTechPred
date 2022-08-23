@@ -4,17 +4,24 @@ Author: Philipp Ganster
 
 Contact: Philipp.ganster95@gmail.com
 
+Link to Streamlit.io: https://pgphi-edtechpred-main-wq4fsw.streamlitapp.com/
+
+Link to Heroku: 
+
 ___
 
 ### About this Project
     
     War has direct impact on our daily lives. Especially the economy.
-    Moreover due to high imports from russia, germany suffers an explosion
+    Moreover due to high gas imports from russia, germany suffers an explosion
     in gas prices for the past months, hence the decreased supply from
     various reasons.
 
     In order to help households to make better financial decisions and ease
     financial uncertainty, in this Project we predict the gas price and gas costs.
+    Also I try to explain in a clear way what the model is about.
+    
+    The Story is build around our hobbies.
 
     The 2 regressor variables are:
     - x1 = Time (control variable)
