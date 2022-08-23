@@ -186,4 +186,4 @@ def user_interface(DF, url):
     st.markdown("**Rhythm and harmony find their way into the inward places of the soul.**")
     st.write("Plato")
     st.text("")
-    st.caption("LinkedIn: www.linkedin.com/in/pganster | More about this Project: https://github.com/pgphi/GasPred")
+    st.caption("LinkedIn: www.linkedin.com/in/pganster | More about this Project: https://github.com/pgphi/EdTechPred")
