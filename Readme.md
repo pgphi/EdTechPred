@@ -15,7 +15,7 @@
     The predictor variable is:
     - f (x1, x2) = Gas Price
 
-####Moreover an API was implemented, showing information about gas from Germany's largest gas provider Uniper Energy:
+#### Moreover an API was implemented, showing information about gas from Germany's largest gas provider Uniper Energy:
 ![](Images/API.png)
 
 
