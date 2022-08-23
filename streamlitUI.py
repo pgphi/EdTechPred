@@ -86,9 +86,9 @@ def user_interface(DF, url):
         ("The graph above shows the price development (f) dependent on the storage capacity and time (X) and its polynomial function,"
          " for making predictions.")
     st.text("")
-    st.latex(r'''
-                 \tiny f(x_1 , x_2) = 5.02 - (6.69 {e-09}) * x_1 + (1.25 {e-09}) * x_2 + (2.24 {e-18}) * x_1^2 - (7.83 {e-19}) * x_2^2 - (3.19 {e-19}) *x_1 * x_2
-                 ''')
+    # st.latex(r'''
+                 # \tiny f(x_1 , x_2) = 5.02 - (6.69 {e-09}) * x_1 + (1.25 {e-09}) * x_2 + (2.24 {e-18}) * x_1^2 - (7.83 {e-19}) * x_2^2 - (3.19 {e-19}) *x_1 * x_2
+                 # ''')
     st.text("")
     st.write("Still unclear? No worries, we're in this together. Imagine the following: Pick one field of expertise i.e. your hobby. In my case it's playing"
          " the piano - and yours? After a while we become really good in this certain area through deliberate practice. So by practice"
