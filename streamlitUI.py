@@ -164,7 +164,7 @@ def user_interface(DF, url):
         st.write("https://www.investopedia.com/terms/m/montecarlosimulation.asp")
     st.text("")
     st.markdown("***")
-    st.markdown("#### Try it Out For Yourself")
+    st.markdown("#### Try it Out For Yourself and predict the Future")
     st.text("")
     st.text("")
     iterations = st.slider("For how long into the future do you want to simulate?", 0, 500)
