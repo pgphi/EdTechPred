@@ -6,7 +6,7 @@ Contact: Philipp.ganster95@gmail.com
 
 Link to Streamlit.io: https://pgphi-edtechpred-main-wq4fsw.streamlitapp.com/
 
-Link to Heroku: 
+Link to Heroku: https://edtech-gas-price-prediction.herokuapp.com/
 
 ___
 
