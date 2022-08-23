@@ -169,7 +169,7 @@ def user_interface(DF, url):
     st.text("")
     iterations = st.slider("For how long into the future do you want to simulate?", 0, 500)
     outcomes = st.slider("How many possible outcomes do you want to simulate?", 0, 10)
-    st.info("After both sliders are set, Monte Caro Simulation starts. This may take a little bit.")
+    st.info("After both sliders are set, Monte Carlo Simulation starts. This may take a little bit.")
     st.text("")
     st.text("")
     st.markdown("***")
