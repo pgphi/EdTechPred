@@ -183,32 +183,30 @@ def user_interface(DF, url):
     st.text("")
     st.text("")
 
-    st.subheader("Tipps zum Gas sparen")
+    st.subheader("Tips for saving Gas")
 
-    tab1, tab2, tab3 = st.tabs(["Duschen", "Kochen und Backen", "Temperatur reduzieren"])
+    tab1, tab2, tab3 = st.tabs(["Showering", "Cooking", "Temperature"])
 
     with tab1:
-        st.subheader("Duschen statt Baden")
-        st.write("Durch das Duschen anstelle eines Vollbades sinkt der Wasser und Stromverbrauch erheblich."
-                 " Durch ein Sparduschkopf kann der Verbrauch zusätzlich minimiert werden.")
+        st.subheader("Showering instead of bathing")
+        st.write("Water consumption can be decreased significantly i.e. with an efficient showerhead.")
         st.image("Images/Duschen.jpg", width=300)
 
     with tab2:
-        st.subheader("Sparsam Kochen und Backen")
+        st.subheader("Cooking efficiently")
         st.write(
-            "Gerade im Winter ist es schwierig auf das Backen zu verzichten. Vorheizen können wir uns jedoch sparen."
-            " So sparen wir bis zu 20% an Energie. Benötigen Sie heißes Wasser beim Kochen, nutzen sie einen Wasserkocher."
-            " Das senkt den Energieverbrauch nochmal erheblich.")
+            "In winter it is hard to avoid cooking and baking. However we can avoid pre-heating the ofen when baking. It reduces energy by ca. 20%."
+            " Moreover, if we need hot water, using a water heater, instead of the stove, reduces energy even more.")
         st.image("Images/Kochen.jpg", width=300)
 
     with tab3:
-        st.subheader("Allgemein gilt: Temperatur reduzieren")
-        st.write("Gas als Energiequelle benötigen wir, um Wärme zu erzeugen und zu erhalten. Vor allem in kälteren"
-                 " Zeiten sollten wir unsere Temperatur bedacht regeln, um zu hohe Kosten zu vermeiden.")
+        st.subheader("General rule of thumb: Reduce temperature")
+        st.write("Generally we need gas in order to provide warmth. With that being said, especially in winter try to reduce the temperature as good"
+                 " as you can.")
         st.image("Images/Temperatur.jpg", width=300)
 
-    with st.expander("Weitere Tipps"):
-        st.write("Siehe Bundesministerium für Wirtschaft und Klimaschutz:")
+    with st.expander("Further Tips"):
+        st.write("See German Bundesministerium für Wirtschaft und Klimaschutz:")
         st.write(
             "https://www.energiewechsel.de/KAENEF/Navigation/DE/Thema/energiespartipps.html?etcc_cmp=energiewechsel&etcc_med=sea&etcc_par=google-ads&etcc_ctv=energieeffizienz-energie-sparen")
 
