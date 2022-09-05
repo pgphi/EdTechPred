@@ -178,6 +178,42 @@ def user_interface(DF, url):
         st.subheader("Here is Your Monte Carlo Simulation")
         mc_simulation(y, iterations, outcomes)
         st.image("Images/mc_prediction.png")
+    
+    
+    st.text("")
+    st.text("")
+
+    st.subheader("Tipps zum Gas sparen")
+
+    tab1, tab2, tab3 = st.tabs(["Duschen", "Kochen und Backen", "Temperatur reduzieren"])
+
+    with tab1:
+        st.subheader("Duschen statt Baden")
+        st.write("Durch das Duschen anstelle eines Vollbades sinkt der Wasser und Stromverbrauch erheblich."
+                 " Durch ein Sparduschkopf kann der Verbrauch zusätzlich minimiert werden.")
+        st.image("Images/Duschen.jpg", width=300)
+
+    with tab2:
+        st.subheader("Sparsam Kochen und Backen")
+        st.write(
+            "Gerade im Winter ist es schwierig auf das Backen zu verzichten. Vorheizen können wir uns jedoch sparen."
+            " So sparen wir bis zu 20% an Energie. Benötigen Sie heißes Wasser beim Kochen, nutzen sie einen Wasserkocher."
+            " Das senkt den Energieverbrauch nochmal erheblich.")
+        st.image("Images/Kochen.jpg", width=300)
+
+    with tab3:
+        st.subheader("Allgemein gilt: Temperatur reduzieren")
+        st.write("Gas als Energiequelle benötigen wir, um Wärme zu erzeugen und zu erhalten. Vor allem in kälteren"
+                 " Zeiten sollten wir unsere Temperatur bedacht regeln, um zu hohe Kosten zu vermeiden.")
+        st.image("Images/Temperatur.jpg", width=300)
+
+    with st.expander("Weitere Tipps"):
+        st.write("Siehe Bundesministerium für Wirtschaft und Klimaschutz:")
+        st.write(
+            "https://www.energiewechsel.de/KAENEF/Navigation/DE/Thema/energiespartipps.html?etcc_cmp=energiewechsel&etcc_med=sea&etcc_par=google-ads&etcc_ctv=energieeffizienz-energie-sparen")
+
+    st.markdown("***")
+   
 
     st.text("")
     st.text("")
