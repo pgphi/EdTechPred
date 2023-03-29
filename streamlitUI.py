@@ -8,6 +8,15 @@ from predictions import make_prediction
 from gasApi import get_gas_info
 from predictions import mc_simulation
 
+# Hide Hamburger Menu and Footer
+hide_streamlit_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 def user_interface(DF, url):
     """
